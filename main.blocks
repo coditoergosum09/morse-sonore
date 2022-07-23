@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="CDyS9JShpJh95u*K,tM[" x="155" y="-7"><statement name="HANDLER"><block type="device_show_leds" id="5*3@6Pw8lKX?nEc7EDZu"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement></block><block type="device_forever" id="%D?wNMh|y2!4!GaYbY3s" x="384" y="-7"><statement name="HANDLER"><block type="controls_if" id="@/$ZN5}#x`5{+/(3-mt$"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Dc{yL#=|6xPp/cM22dni"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="`N%v5R1EKa3(L8Kx?BSa"><field name="name">DigitalPin.P13</field></block></value><value name="B"><shadow type="math_number" id="F]@wwr~zDqLinpX?Ztt^"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_print_message" id="@Di1`u$d2$LWAD!Tj*um"><value name="text"><shadow type="text" id="C6{Eq}8Zzm(_f#V#hZ4b"><field name="TEXT"> .-------.-.--...---. = "BONNE-NUIT" en morse</field></shadow></value></block></statement></block></statement></block><block type="device_button_event" id="+a;],,5F!]ilKY#gZAM_" x="387" y="245"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_play_note" id="P_0{LQ:pd)MEq/cNWYkS"><value name="note"><shadow type="device_note" id="i?45D_ly~#@qCogQ7{@="><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="ZDA]q/AOORR:w#hndt0r"><field name="fraction">BeatFraction.Eighth</field></shadow></value><next><block type="device_show_leds" id="ezyb:*nhYnolsIMKW6_~"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="7H55#HnSH!0Bn_orlioJ" x="843" y="234"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_play_note" id="./bmhye^2,y.rJZdN6|_"><value name="note"><shadow type="device_note" id="q+A$2(I0wt).seyNb*U5"><field name="name">330</field></shadow></value><value name="duration"><shadow type="device_beat" id="K*tzbCW1epht=K,xlV3?"><field name="fraction">BeatFraction.Quarter</field></shadow></value><next><block type="device_show_leds" id="5@a@pdrQmQATGIg=KQ)A"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></xml>
